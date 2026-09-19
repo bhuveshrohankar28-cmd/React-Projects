@@ -8,3 +8,11 @@ body {
 h1 {
     margin-top: 40px;
 }
+
+.header{
+    display: flex;
+}
+
+.list{
+    list-style: none;
+}

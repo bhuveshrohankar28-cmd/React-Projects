@@ -1,10 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
     background: #27292c;
     color: white;
-    text-align: center;
 }
 
 h1 {
-    margin-top: 40px;
+    margin-top: 30px;
+    color: aqua;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    background-color: #21222A;
+}
+.list{
+    list-style: none;
+    display: flex;
+}
+
+.list-item{
+    margin-left: 50px;
+    font-size: 1.1rem;
+}
+
+.nav-logo{
+    width: 55px;
+}
+
+.main{
+    background-color: #282D35;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.img{
+    ;
 }
